@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Topic_COA">
+
+    <Button
+        android:id="@+id/xvna"
+        android:layout_width="354dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="200dp"
+        android:text="Von Neuman Architecture"
+        android:textColor="#28C4E6"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/xcache"
+        android:layout_width="354dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="364dp"
+        android:text="Cache Memory"
+        android:textColor="#28C4E6"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

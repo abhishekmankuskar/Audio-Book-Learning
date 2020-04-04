@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".FY_Sub">
+
+    <Button
+        android:id="@+id/xchemb"
+        android:layout_width="321dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="44dp"
+
+        android:layout_marginTop="112dp"
+        android:text="Chemistry"
+        android:textColor="#28C4E6"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/xphyb"
+        android:layout_width="321dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="44dp"
+
+        android:layout_marginTop="272dp"
+        android:text="PHYSICS"
+        android:textColor="#28C4E6"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/xcivilb"
+        android:layout_width="322dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="432dp"
+        android:text="CIVIL"
+        android:textColor="#28C4E6"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

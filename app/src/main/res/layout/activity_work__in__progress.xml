@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Work_In_Progress">
+
+    <TextView
+        android:id="@+id/wip"
+        android:layout_width="276dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="256dp"
+        android:text="WORK IN PROGRESS....."
+        android:textAlignment="center"
+        android:textColor="#28C4E6"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Login">
+
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="164dp"
+        android:text="Login ID : "
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvpass"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="280dp"
+        android:text="Password : "
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etloginid"
+        android:layout_width="185dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="168dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="189dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="154dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="432dp"
+        android:text="Sign In"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

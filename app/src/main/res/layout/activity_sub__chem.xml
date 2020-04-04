@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Sub_Chem">
+
+    <Button
+        android:id="@+id/xsas"
+        android:layout_width="321dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="44dp"
+
+        android:layout_marginTop="200dp"
+        android:text="Scales and Sludge"
+        android:textColor="#28C4E6"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/xbc"
+        android:layout_width="321dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="44dp"
+
+        android:layout_marginTop="344dp"
+        android:text="Bomb Calorimeter"
+        android:textColor="#28C4E6"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
